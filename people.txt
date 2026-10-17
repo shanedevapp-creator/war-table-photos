@@ -1,0 +1,72 @@
+# One person per line: English Wikipedia article title | country code | tags (comma separated) | optional short slug
+# Run: python tools/fetch_people.py   (skips people already in catalog.json; --refresh to redo)
+
+# Germany
+Adolf Hitler | de | ww2,leader
+Hermann Göring | de | ww2,luftwaffe
+Walther von Brauchitsch | de | ww2,general
+Franz Halder | de | ww2,general
+Wilhelm Keitel | de | ww2,general
+Alfred Jodl | de | ww2,general
+Gerd von Rundstedt | de | ww2,general,1940
+Fedor von Bock | de | ww2,general,1940
+Wilhelm Ritter von Leeb | de | ww2,general,1940
+Erich von Manstein | de | ww2,general,1940
+Heinz Guderian | de | ww2,general,1940,panzer
+Erwin Rommel | de | ww2,general,1940,panzer,north-africa
+Paul Ludwig Ewald von Kleist | de | ww2,general,1940,panzer | kleist
+Hermann Hoth | de | ww2,general,1940,panzer
+Georg-Hans Reinhardt | de | ww2,general,1940,panzer
+Erich Hoepner | de | ww2,general,1940,panzer
+Albert Kesselring | de | ww2,luftwaffe,italy
+Walter Model | de | ww2,general
+Friedrich Paulus | de | ww2,general,stalingrad
+Karl Dönitz | de | ww2,navy
+
+# France
+Maurice Gamelin | fr | ww2,general,1940
+Maxime Weygand | fr | ww2,general,1940
+Alphonse Georges | fr | ww2,general,1940
+Gaston Billotte | fr | ww2,general,1940
+Henri Giraud | fr | ww2,general,1940
+René Prioux | fr | ww2,general,1940
+Charles Huntziger | fr | ww2,general,1940
+André Corap | fr | ww2,general,1940
+Paul Reynaud | fr | ww2,leader,1940
+Édouard Daladier | fr | ww2,leader
+Philippe Pétain | fr | ww2,leader,ww1
+Charles de Gaulle | fr | ww2,leader,general,1940
+
+# United Kingdom
+Winston Churchill | gb | ww2,leader
+Neville Chamberlain | gb | ww2,leader
+John Vereker, 6th Viscount Gort | gb | ww2,general,1940 | gort
+Bertram Ramsay | gb | ww2,navy,1940,dunkirk
+Alan Brooke, 1st Viscount Alanbrooke | gb | ww2,general,1940 | alanbrooke
+Bernard Montgomery | gb | ww2,general,north-africa
+Harold Alexander, 1st Earl Alexander of Tunis | gb | ww2,general | alexander
+
+# Belgium, Netherlands
+Leopold III of Belgium | be | ww2,leader,1940 | leopold-iii
+Henri Winkelman | nl | ww2,general,1940
+
+# United States
+Franklin D. Roosevelt | us | ww2,leader
+Dwight D. Eisenhower | us | ww2,general
+George S. Patton | us | ww2,general
+Omar Bradley | us | ww2,general
+George C. Marshall | us | ww2,general
+Douglas MacArthur | us | ww2,general,pacific
+Chester W. Nimitz | us | ww2,navy,pacific
+
+# Soviet Union
+Joseph Stalin | su | ww2,leader
+Georgy Zhukov | su | ww2,general
+Ivan Konev | su | ww2,general
+Konstantin Rokossovsky | su | ww2,general
+
+# Italy, Japan
+Benito Mussolini | it | ww2,leader
+Hirohito | jp | ww2,leader,pacific
+Hideki Tojo | jp | ww2,leader,pacific
+Isoroku Yamamoto | jp | ww2,navy,pacific
