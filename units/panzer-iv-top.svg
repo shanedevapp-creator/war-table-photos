@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="2000" height="1040">
+  <defs>
+    <pattern id="tread" width="14" height="70" patternUnits="userSpaceOnUse">
+      <rect width="14" height="70" fill="#26282a"/>
+      <rect x="0" y="0" width="6" height="70" fill="#3a3d40"/>
+      <rect x="6" y="30" width="8" height="10" fill="#1b1c1e"/>
+    </pattern>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f757b"/>
+      <stop offset="1" stop-color="#565b60"/>
+    </linearGradient>
+    <radialGradient id="tur" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#80868c"/>
+      <stop offset="1" stop-color="#585d62"/>
+    </radialGradient>
+  </defs>
+
+  <!-- drop shadow -->
+  <g opacity="0.25" fill="#000" transform="translate(10 12)">
+    <rect x="120" y="110" width="760" height="300" rx="10"/>
+    <rect x="700" y="252" width="278" height="22"/>
+  </g>
+
+  <!-- tracks -->
+  <rect x="120" y="110" width="760" height="70" rx="10" fill="url(#tread)" stroke="#1a1b1c" stroke-width="3"/>
+  <rect x="120" y="340" width="760" height="70" rx="10" fill="url(#tread)" stroke="#1a1b1c" stroke-width="3"/>
+
+  <!-- fenders over tracks -->
+  <rect x="150" y="132" width="690" height="44" fill="#5b6065" stroke="#2f3236" stroke-width="3"/>
+  <rect x="150" y="344" width="690" height="44" fill="#5b6065" stroke="#2f3236" stroke-width="3"/>
+  <!-- fender stowage -->
+  <rect x="190" y="138" width="70" height="30" rx="3" fill="#4d5156" stroke="#2f3236" stroke-width="2"/>
+  <rect x="560" y="146" width="150" height="10" rx="4" fill="#6b5640" stroke="#2f3236" stroke-width="2"/>
+  <rect x="300" y="368" width="160" height="9" rx="4" fill="#6b5640" stroke="#2f3236" stroke-width="2"/>
+  <circle cx="770" cy="366" r="13" fill="#4d5156" stroke="#2f3236" stroke-width="2"/>
+
+  <!-- hull -->
+  <rect x="135" y="172" width="735" height="176" rx="6" fill="url(#hull)" stroke="#2f3236" stroke-width="4"/>
+  <!-- front glacis -->
+  <rect x="822" y="172" width="48" height="176" fill="#7b8187" stroke="#2f3236" stroke-width="3"/>
+  <!-- exhaust -->
+  <rect x="112" y="225" width="24" height="70" rx="8" fill="#4a3c33" stroke="#2f3236" stroke-width="3"/>
+
+  <!-- engine deck grilles -->
+  <g stroke="#3a3e42" stroke-width="3">
+    <rect x="160" y="190" width="170" height="140" fill="#60656a"/>
+    <line x1="180" y1="200" x2="180" y2="320"/><line x1="200" y1="200" x2="200" y2="320"/>
+    <line x1="220" y1="200" x2="220" y2="320"/><line x1="290" y1="200" x2="290" y2="320"/>
+    <line x1="310" y1="200" x2="310" y2="320"/>
+  </g>
+  <rect x="240" y="225" width="40" height="70" rx="3" fill="#565b60" stroke="#3a3e42" stroke-width="3"/>
+
+  <!-- superstructure -->
+  <rect x="360" y="182" width="458" height="156" rx="4" fill="#666c72" stroke="#2f3236" stroke-width="3"/>
+  <!-- driver & radio hatches -->
+  <rect x="740" y="196" width="56" height="40" rx="6" fill="#5c6166" stroke="#2f3236" stroke-width="3"/>
+  <rect x="740" y="284" width="56" height="40" rx="6" fill="#5c6166" stroke="#2f3236" stroke-width="3"/>
+
+  <!-- air-recognition cross on rear deck -->
+  <g transform="translate(260 260)">
+    <rect x="-20" y="-7" width="40" height="14" fill="#f2f2f0"/>
+    <rect x="-7" y="-20" width="14" height="40" fill="#f2f2f0"/>
+    <rect x="-15" y="-3" width="30" height="6" fill="#111"/>
+    <rect x="-3" y="-15" width="6" height="30" fill="#111"/>
+  </g>
+
+  <!-- gun -->
+  <rect x="712" y="254" width="248" height="13" fill="#43474b" stroke="#2a2c2e" stroke-width="3"/>
+  <rect x="952" y="247" width="32" height="27" rx="3" fill="#3c4044" stroke="#2a2c2e" stroke-width="3"/>
+
+  <!-- turret -->
+  <polygon points="452,192 640,192 690,224 690,296 640,328 452,328 428,302 428,218" fill="url(#tur)" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+  <!-- mantlet -->
+  <rect x="686" y="238" width="30" height="44" rx="5" fill="#55595e" stroke="#2f3236" stroke-width="3"/>
+  <!-- commander cupola -->
+  <circle cx="478" cy="260" r="32" fill="#62676c" stroke="#2f3236" stroke-width="4"/>
+  <circle cx="478" cy="260" r="20" fill="#575c61" stroke="#3a3e42" stroke-width="3"/>
+  <!-- turret hatches -->
+  <rect x="560" y="200" width="44" height="26" rx="4" fill="#61666b" stroke="#3a3e42" stroke-width="3"/>
+  <rect x="560" y="294" width="44" height="26" rx="4" fill="#61666b" stroke="#3a3e42" stroke-width="3"/>
+  <!-- vent -->
+  <circle cx="640" cy="260" r="9" fill="#4a4e52" stroke="#2f3236" stroke-width="2"/>
+
+  <!-- antenna base -->
+  <circle cx="400" cy="190" r="5" fill="#2f3236"/>
+</svg>

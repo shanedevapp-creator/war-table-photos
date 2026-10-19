@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="2400" height="1200">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#737980"/>
+      <stop offset="1" stop-color="#4c5156"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a5f64"/>
+      <stop offset="1" stop-color="#6e747a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="420" cy="528" rx="380" ry="14" fill="#000" opacity="0.25"/>
+
+  <!-- split trail -->
+  <polygon points="470,392 505,410 150,512 128,500" fill="#4a4f54" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="465,380 495,396 170,488 156,478" fill="url(#metal)" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+  <!-- trail handles & spade -->
+  <rect x="230" y="438" width="40" height="10" rx="4" fill="#3a3e42" transform="rotate(-16 250 443)"/>
+  <polygon points="100,470 140,470 150,522 108,522" fill="#3f4347" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- shield -->
+  <polygon points="610,205 668,212 676,415 616,422" fill="url(#shield)" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="616" y1="230" x2="668" y2="236" stroke="#888e94" stroke-width="3"/>
+  <polygon points="616,422 676,415 678,452 620,458" fill="#555a5f" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- upper carriage (saddle) -->
+  <polygon points="490,418 600,418 590,330 510,330" fill="#5b6065" stroke="#2f3236" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- elevated barrel group (trunnion at 550,330) -->
+  <g transform="rotate(-20 550 330)">
+    <rect x="470" y="338" width="300" height="26" rx="8" fill="#555a5f" stroke="#2f3236" stroke-width="4"/>
+    <rect x="480" y="320" width="270" height="20" fill="#60656a" stroke="#2f3236" stroke-width="4"/>
+    <rect x="470" y="300" width="470" height="24" fill="url(#metal)" stroke="#2a2c2e" stroke-width="4"/>
+    <rect x="930" y="294" width="24" height="36" rx="3" fill="#43474b" stroke="#2a2c2e" stroke-width="4"/>
+    <rect x="420" y="290" width="60" height="52" rx="4" fill="#4a4f54" stroke="#2a2c2e" stroke-width="4"/>
+    <rect x="402" y="305" width="20" height="22" rx="3" fill="#3a3e42" stroke="#2a2c2e" stroke-width="3"/>
+  </g>
+  <circle cx="550" cy="345" r="13" fill="#3f4347" stroke="#2f3236" stroke-width="3"/>
+
+  <!-- sight -->
+
+  <!-- carriage / axle block -->
+
+  <!-- wheel -->
+  <g transform="translate(520 430)">
+    <circle r="98" fill="#26282a" stroke="#1a1b1c" stroke-width="4"/>
+    <circle r="98" fill="none" stroke="#3a3d40" stroke-width="8" stroke-dasharray="10 8"/>
+    <circle r="80" fill="#5b6065" stroke="#2f3236" stroke-width="4"/>
+    <circle r="68" fill="#4a4f54" stroke="#2f3236" stroke-width="3"/>
+    <g stroke="#62676c" stroke-width="10" stroke-linecap="round">
+      <line x1="0" y1="-64" x2="0" y2="64"/>
+      <line x1="-64" y1="0" x2="64" y2="0"/>
+      <line x1="-45" y1="-45" x2="45" y2="45"/>
+      <line x1="-45" y1="45" x2="45" y2="-45"/>
+    </g>
+    <circle r="24" fill="#555a5f" stroke="#2f3236" stroke-width="4"/>
+    <circle r="9" fill="#2a2c2e"/>
+  </g>
+</svg>

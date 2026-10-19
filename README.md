@@ -28,3 +28,15 @@ python tools/fetch_people.py
 It only fetches people not yet in `catalog.json` (`--refresh` redoes everyone), then rewrites `CATALOG.md`. Commit and push.
 
 No free photo was found for René Prioux (French Cavalry Corps, 1940).
+
+## Units (drawn graphics)
+
+`units/` holds original vector drawings of WW2 equipment for overlays and map animations. Transparent background, German panzer-grey scheme, facing right. Each comes as an `.svg` (scales to any size) and a `.png` render.
+
+| File | What |
+|---|---|
+| `panzer-iv-side` | Panzer IV, side view, long 75 mm gun |
+| `panzer-iv-top` | Panzer IV, top-down view (for map counters; rotate to heading) |
+| `lefh18-howitzer-side` | leFH 18 105 mm light howitzer, side view, ~20° elevation |
+
+Raw URL pattern: `https://raw.githubusercontent.com/shanedevapp-creator/war-table-photos/main/units/<file>`. These are drawn for the channel, so no credit line is needed.
