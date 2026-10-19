@@ -31,12 +31,22 @@ No free photo was found for René Prioux (French Cavalry Corps, 1940).
 
 ## Units (drawn graphics)
 
-`units/` holds original vector drawings of WW2 equipment for overlays and map animations. Transparent background, German panzer-grey scheme, facing right. Each comes as an `.svg` (scales to any size) and a `.png` render.
+`units/` holds original vector drawings of WW2 equipment and soldiers for overlays and map animations. All share one style: dark outline `#2c2f27`, transparent background, side view facing right (flip horizontally for the other direction). Each comes as an `.svg` (scales to any size) and a `.png` render.
 
-| File | What |
+| Group | Files |
 |---|---|
-| `panzer-iv-side` | Panzer IV, side view, long 75 mm gun |
-| `panzer-iv-top` | Panzer IV, top-down view (for map counters; rotate to heading) |
-| `lefh18-howitzer-side` | leFH 18 105 mm light howitzer, side view, ~20° elevation |
+| German army | `panzer-iv-side`, `panzer-iv-top` (map counter, rotate to heading), `lefh18-howitzer-side`, `german-infantry-side` |
+| Allied army | `char-b1-side` (French heavy tank), `matilda-ii-side` (British), `french-infantry-side`, `british-infantry-side`, `supply-truck-side` |
+| Aircraft | `bf109-side`, `ju87-stuka-side`, `he111-side` (German); `spitfire-side`, `d520-side` (Allied) |
+| Warships | `battleship-side`, `cruiser-side`, `destroyer-side`, `submarine-side`, `carrier-side` (generic, no national markings) |
 
-Raw URL pattern: `https://raw.githubusercontent.com/shanedevapp-creator/war-table-photos/main/units/<file>`. These are drawn for the channel, so no credit line is needed.
+## Map icons
+
+`icons/` holds map symbols in the same style.
+
+- Unit counters (NATO style), two sides each — `unit-<type>-german` (grey) and `unit-<type>-allied` (blue), type = `infantry`, `armor`, `mechanized`, `artillery`, `recon`, `headquarters`
+- Unit size markers to place above a counter: `size-army` (XXXX), `size-corps` (XXX), `size-division` (XX), `size-brigade` (X), `size-regiment` (III)
+- `attack-arrow-red`, `attack-arrow-blue`, `attack-arrow-grey`
+- `explosion`, `fortress`, `airfield`, `port`, `supply`, `defense-line` (repeatable horizontally)
+
+Raw URL pattern: `https://raw.githubusercontent.com/shanedevapp-creator/war-table-photos/main/<units|icons>/<file>`. These are drawn for the channel, so no credit line is needed.

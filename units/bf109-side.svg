@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="350 84 620 250" width="1488" height="600">
+  <!-- Messerschmitt Bf 109E, side view, facing right, 1940 scheme (green upper / light blue under) -->
+  <defs>
+    <clipPath id="fus">
+      <path d="M886,184 Q840,172 770,168 L700,166 L600,174 L430,196 L398,198 L398,214 L446,218 Q560,248 680,256 Q800,256 860,242 L886,236 Z"/>
+    </clipPath>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9dbe6"/>
+      <stop offset="1" stop-color="#7f9cb0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- horizontal tailplane -->
+  <ellipse cx="428" cy="198" rx="46" ry="6" fill="#4c5443" stroke="#2c2f27" stroke-width="3"/>
+
+  <!-- fin & rudder -->
+  <path d="M404,202 L382,130 Q382,108 406,106 L430,108 Q448,112 456,132 L474,196 Z" fill="#5d6650" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M418,108 Q410,150 424,200" fill="none" stroke="#2c2f27" stroke-width="3"/>
+
+  <!-- fuselage -->
+  <g clip-path="url(#fus)">
+    <rect x="380" y="150" width="540" height="120" fill="#a9bccb"/>
+    <path d="M380,150 L920,150 L920,202 Q860,210 800,202 Q740,216 680,208 Q610,218 550,210 Q480,218 380,212 Z" fill="#5d6650"/>
+    <path d="M380,150 L920,150 L920,178 Q700,166 380,198 Z" fill="#6c765d" opacity="0.6"/>
+  </g>
+  <path d="M886,184 Q840,172 770,168 L700,166 L600,174 L430,196 L398,198 L398,214 L446,218 Q560,248 680,256 Q800,256 860,242 L886,236 Z" fill="none" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#2c2f27" stroke-width="2" opacity="0.5">
+    <path d="M790,172 L792,252"/><path d="M600,176 L600,246"/><path d="M480,192 L480,226"/>
+  </g>
+
+  <!-- canopy -->
+  <path d="M640,170 L660,136 L736,132 L764,167 Z" fill="url(#glass)" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+  <g stroke="#3b4334" stroke-width="5">
+    <line x1="690" y1="134" x2="686" y2="169"/>
+    <line x1="720" y1="133" x2="724" y2="167"/>
+    <line x1="650" y1="152" x2="748" y2="150"/>
+  </g>
+  <path d="M664,142 L684,141" stroke="#eef5fa" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- wing, edge-on -->
+  <path d="M590,246 Q700,232 812,240 Q700,266 590,246 Z" fill="#a9bccb" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M610,244 Q700,235 792,240" fill="none" stroke="#5d6650" stroke-width="5"/>
+  <path d="M690,254 L750,252 L744,268 L696,268 Z" fill="#8ea2b1" stroke="#2c2f27" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- exhaust stacks & intake -->
+  <g fill="#2a2420" stroke="#111" stroke-width="2">
+    <rect x="806" y="190" width="11" height="9" rx="2"/>
+    <rect x="822" y="190" width="11" height="9" rx="2"/>
+    <rect x="838" y="191" width="11" height="9" rx="2"/>
+  </g>
+  <path d="M770,206 L800,204 L800,220 L774,218 Z" fill="#4c5443" stroke="#2c2f27" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Balkenkreuz -->
+  <g transform="translate(530 214)">
+    <rect x="-22" y="-8" width="44" height="16" fill="#f2f2f0" stroke="#2c2f27" stroke-width="2"/>
+    <rect x="-8" y="-22" width="16" height="44" fill="#f2f2f0" stroke="#2c2f27" stroke-width="2"/>
+    <rect x="-22" y="-8" width="44" height="16" fill="#f2f2f0"/>
+    <rect x="-16" y="-4" width="32" height="8" fill="#111"/>
+    <rect x="-4" y="-16" width="8" height="32" fill="#111"/>
+  </g>
+
+  <!-- tail wheel -->
+  <circle cx="424" cy="224" r="8" fill="#222" stroke="#111" stroke-width="2"/>
+
+  <!-- spinner (yellow nose, 1940) -->
+  <path d="M882,184 Q928,188 944,210 Q928,232 882,236 Z" fill="#e6c43a" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M894,192 Q920,196 932,206" fill="none" stroke="#fff3b0" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- spinning propeller -->
+  <ellipse cx="906" cy="210" rx="8" ry="112" fill="#2c2f27" opacity="0.18"/>
+  <path d="M902,104 Q912,156 906,206 Q898,156 902,104 Z" fill="#2c2f27" opacity="0.65"/>
+  <path d="M906,214 Q914,264 904,316 Q896,264 906,214 Z" fill="#2c2f27" opacity="0.65"/>
+</svg>

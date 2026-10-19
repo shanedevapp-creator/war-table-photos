@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="220 160 740 340" width="1480" height="680">
+<defs></defs>
+<ellipse cx="590" cy="476" rx="380" ry="15" fill="#000" opacity="0.25"/>
+<rect x="240" y="376" width="680" height="20" rx="3" fill="#3a3e42" stroke="#2c2f27" stroke-width="3"/>
+<path d="M250,300 L250,214 Q258,186 296,184 L650,184 Q690,186 694,214 L694,300 Z" fill="#9b8d63" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<path d="M360,186 L360,300" stroke="#7d7150" stroke-width="3"/><path d="M470,186 L470,300" stroke="#7d7150" stroke-width="3"/><path d="M580,186 L580,300" stroke="#7d7150" stroke-width="3"/>
+<path d="M244,298 L700,298 L700,378 L244,378 Z" fill="#5f6446" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<path d="M320,302 L320,374" stroke="#4a4f38" stroke-width="3"/><path d="M400,302 L400,374" stroke="#4a4f38" stroke-width="3"/><path d="M480,302 L480,374" stroke="#4a4f38" stroke-width="3"/><path d="M560,302 L560,374" stroke="#4a4f38" stroke-width="3"/><path d="M640,302 L640,374" stroke="#4a4f38" stroke-width="3"/>
+<path d="M710,378 L710,236 Q712,222 728,222 L800,222 Q816,224 820,240 L828,300 L912,304 Q930,306 934,322 L936,378 Z" fill="#5f6446" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<path d="M726,236 L796,236 L806,290 L726,290 Z" fill="#9fb8c8" stroke="#2c2f27" stroke-width="3" stroke-linejoin="round"/>
+<line x1="760" y1="236" x2="762" y2="290" stroke="#2c2f27" stroke-width="3"/>
+<rect x="922" y="318" width="16" height="52" rx="3" fill="#3a3e42" stroke="#2c2f27" stroke-width="3"/>
+<circle cx="928" cy="326" r="8" fill="#e9e1b0" stroke="#2c2f27" stroke-width="3"/>
+<path d="M750,392 Q756,340 806,338 Q860,340 868,392 Z" fill="#4f543a" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<path d="M300,392 Q306,340 356,338 Q410,340 418,392 Z" fill="#4f543a" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<path d="M410,392 Q416,340 466,338 Q520,340 528,392 Z" fill="#4f543a" stroke="#2c2f27" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="808" cy="410" r="46" fill="#26282a" stroke="#1a1b1c" stroke-width="4"/><circle cx="808" cy="410" r="28.52" fill="#5a5f44" stroke="#2c2f27" stroke-width="3"/><circle cx="808" cy="410" r="10.12" fill="#2e3134"/>
+<circle cx="358" cy="410" r="46" fill="#26282a" stroke="#1a1b1c" stroke-width="4"/><circle cx="358" cy="410" r="28.52" fill="#5a5f44" stroke="#2c2f27" stroke-width="3"/><circle cx="358" cy="410" r="10.12" fill="#2e3134"/>
+<circle cx="468" cy="410" r="46" fill="#26282a" stroke="#1a1b1c" stroke-width="4"/><circle cx="468" cy="410" r="28.52" fill="#5a5f44" stroke="#2c2f27" stroke-width="3"/><circle cx="468" cy="410" r="10.12" fill="#2e3134"/>
+<line x1="740" y1="300" x2="826" y2="300" stroke="#2c2f27" stroke-width="3"/>
+</svg>
